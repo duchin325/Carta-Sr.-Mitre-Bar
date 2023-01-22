@@ -1,0 +1,157 @@
+/** HOME **/
+section{
+  height: 1020px;
+  width: 480px;
+  border: 1px solid gray;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodyhome{
+  background-color: #424242;
+}
+.icons-home{
+  font-size: 40px;
+  background-color:black;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid white;
+}
+.contenedor-home {
+    text-align: center;
+    background-image: url(../img/fondo-home.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenedor-home a {
+    color: white;
+}
+.contenedor-home h1{
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    font-family: 'Bitter', serif;
+    font-size: 30px;
+}
+.botones{
+  align-items: center;
+  margin-top: 300px;
+}
+.botones a{
+  text-decoration: none;
+}
+.copyright{
+  color: white;
+  text-align: right;
+  margin-top: 500px;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+@media (min-width: 400px){
+  .botones{
+    margin-top: 350px;
+    align-items: center;
+  }
+}
+@media (min-width: 400px){
+  .contenedor-home{
+    height: 110%;
+  }
+}
+@media (min-width: 400px){
+  .copyright{
+    margin-top: 550px;
+  }
+}
+
+/** COMIDAS **/
+.contenedor-comidas{
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+}
+.cards{
+    display: block;
+}
+.cards span{
+  text-align: right;
+}
+
+/** BEBIDAS **/
+.contenedor-botones{
+  display: flex;
+  justify-content: center;
+  padding-top: 400px;
+}
+.contenedor-botones button{
+  border: 3px solid white;
+  border-radius: 20px;
+  padding: 8px 20px;
+  background-color: black;
+  text-transform: uppercase;
+}
+.btnleft{
+  margin-left: 30px;
+}
+.contenedor-botones a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Bitter', serif;
+}
+.contenedor-bebidas{
+  background-image: url(../img/fondo-bebidas.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.contenedor{
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+}
+.uvas {
+  font-size: 15px;
+  font-weight: normal;
+}
+.bodydrink{
+  background-color: #424242;
+}
+@media (min-width: 400px){
+  .contenedor-bebidas{
+    height: 110%;
+  }
+}
+
+/**.detalle{
+    display: flex;
+    justify-content: right;
+}
+/**.detalle span{
+    justify-content: right;
+    margin-left: 20px;
+    font-size: 20px;
+}**/
+.arrowbebidas{
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+}
+/** GRALES **/
+span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.card-header{
+  text-transform: uppercase;
+}
+.card-title{
+  font-weight: 600;
+  text-align: center;
+}
+.arrowback{
+  color: black;
+  font-size: 30px;
+}
